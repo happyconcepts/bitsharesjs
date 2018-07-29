@@ -1,6 +1,6 @@
 {
     "name": "bitsharesjs",
-    "version": "1.7.10",
+    "version": "1.8.0",
     "description": "Pure JavaScript Bitshares library for node.js and browsers.",
     "browser": {
         "ws": false,
@@ -26,6 +26,8 @@
         "prepublish": "npm run build && npm run test",
         "doc": "esdoc -c esdoc.json",
         "example:transfer": "babel-node examples/transfer",
+        "example:feed": "babel-node examples/publishFeed",
+        "example:co-update": "babel-node examples/callOrderUpdate",
         "example:chainStore": "babel-node examples/chainStore",
         "example:privKey": "babel-node examples/privKey"
     },
